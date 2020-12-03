@@ -15,4 +15,6 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="title_activity_taipei_rest">TaipeiRest</string>
     <string name="title_activity_taipei_drink">TaipeiDrink</string>
+    <string name="title_activity_taiwan_rest">TaiwanRest</string>
+    <string name="title_activity_taiwan_drink">TaiwanDrink</string>
 </resources>

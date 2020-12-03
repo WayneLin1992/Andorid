@@ -25,6 +25,16 @@ public class Page2<lng> extends AppCompatActivity {
         intent.setClass(Page2.this, TaipeiDrink.class);
         startActivity(intent);
     }
+    public void  clickTaiwanRest(View view) {
+        Intent intent = new Intent();
+        intent.setClass(Page2.this, TaiwanRest.class);
+        startActivity(intent);
+    }
+    public void  clickTaiwanDrink(View view) {
+        Intent intent = new Intent();
+        intent.setClass(Page2.this, TaiwanDrink.class);
+        startActivity(intent);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
