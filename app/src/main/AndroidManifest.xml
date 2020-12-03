@@ -13,9 +13,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.InteractionDemo">
         <activity
+            android:name=".TaipeiDrink"
+            android:label="@string/title_activity_taipei_drink"
+            android:theme="@style/Theme.InteractionDemo.NoActionBar"></activity>
+        <activity
             android:name=".TaipeiRest"
             android:label="@string/title_activity_taipei_rest"
-            android:theme="@style/Theme.InteractionDemo.NoActionBar"></activity>
+            android:theme="@style/Theme.InteractionDemo.NoActionBar" />
         <activity
             android:name=".Page2"
             android:label="@string/title_activity_page2"

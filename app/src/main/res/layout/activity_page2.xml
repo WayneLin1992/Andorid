@@ -80,6 +80,7 @@
             android:layout_marginStart="60dp"
             android:layout_marginLeft="60dp"
             android:layout_marginTop="30dp"
+            android:onClick="clickTaipeiDrink"
             android:text="飲料"
             android:textSize="24sp"
             app:layout_constraintStart_toStartOf="parent"
