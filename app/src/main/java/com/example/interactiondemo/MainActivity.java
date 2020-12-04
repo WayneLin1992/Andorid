@@ -22,10 +22,8 @@ public class MainActivity extends AppCompatActivity {
     }
     public void login(View view){
         EditText Username = (EditText) findViewById(R.id.editTextUsername );
-        EditText Password = (EditText) findViewById(R.id.editTextPassword );
         Log.i(  "Info", "button pass");
         Log.i(  "Username",Username.getText().toString());
-        Log.i(  "Password",Password.getText().toString());
         Toast.makeText(this,   "hi " + Username.getText().toString(), Toast.LENGTH_LONG).show();
     }
     @Override
