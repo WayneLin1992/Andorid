@@ -1,7 +1,10 @@
 package com.example.interactiondemo;
 
+import android.content.Intent;
 import android.os.Bundle;
 
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
@@ -11,6 +14,11 @@ import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 
 public class TaipeiDrink extends AppCompatActivity {
+    public void clickCOMEBUY(View view) {
+        Intent intent = new Intent();
+        intent.setClass(TaipeiDrink.this, COMEBUY.class);
+        startActivity(intent);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

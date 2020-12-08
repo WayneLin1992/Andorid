@@ -41,20 +41,12 @@
             android:layout_marginStart="50dp"
             android:layout_marginLeft="50dp"
             android:layout_marginTop="150dp"
+            android:onClick="clickCOMEBUY"
             android:text="ComeBuys"
             android:textSize="30sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <com.google.android.gms.maps.MapView
-            android:id="@+id/mapView"
-            android:layout_width="190dp"
-            android:layout_height="151dp"
-            android:layout_marginStart="50dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="50dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button3" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

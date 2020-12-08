@@ -1,5 +1,6 @@
 package com.example.interactiondemo;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -11,6 +12,11 @@ import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 
 public class TaipeiRest extends AppCompatActivity {
+    public void clickRestTaipei(View view) {
+        Intent intent = new Intent();
+        intent.setClass(TaipeiRest.this, RestTaipei.class);
+        startActivity(intent);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

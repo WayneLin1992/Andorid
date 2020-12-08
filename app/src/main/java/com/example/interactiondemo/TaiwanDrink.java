@@ -1,5 +1,6 @@
 package com.example.interactiondemo;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -11,7 +12,11 @@ import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 
 public class TaiwanDrink extends AppCompatActivity {
-
+    public void clickDrinkTaiwan(View view) {
+        Intent intent = new Intent();
+        intent.setClass(TaiwanDrink.this, DrinkTaiwan.class);
+        startActivity(intent);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

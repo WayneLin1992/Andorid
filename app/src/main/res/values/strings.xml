@@ -17,4 +17,8 @@
     <string name="title_activity_taipei_drink">TaipeiDrink</string>
     <string name="title_activity_taiwan_rest">TaiwanRest</string>
     <string name="title_activity_taiwan_drink">TaiwanDrink</string>
+    <string name="title_activity_c_o_m_e_b_u_y">Map</string>
+    <string name="title_activity_rest_taiwan">Map</string>
+    <string name="title_activity_drink_taiwan">Map</string>
+    <string name="title_activity_rest_taipei">Map</string>
 </resources>
