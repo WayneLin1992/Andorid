@@ -48,6 +48,15 @@ public class RestTaiwan extends FragmentActivity implements OnMapReadyCallback {
         LatLng sydney2 = new LatLng(25.014516748780014, 121.53461238156409);//25.014516748780014, 121.53461238156409
         mMap.addMarker(new MarkerOptions().position(sydney2).title("麥當勞 公館店"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney2));
+        LatLng sydney3 = new LatLng(25.012734854486517, 121.5354430421749);//25.012734854486517, 121.5354430421749
+        mMap.addMarker(new MarkerOptions().position(sydney3).title("墨洋拉麵"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney3));
+        LatLng sydney4 = new LatLng(25.012863576399273, 121.53555542515176);//25.012863576399273, 121.53555542515176
+        mMap.addMarker(new MarkerOptions().position(sydney4).title("阿里媽媽南洋料理"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney4));
+        LatLng sydney5 = new LatLng(25.014428421126127, 121.53351331819182);//25.014428421126127, 121.53351331819182
+        mMap.addMarker(new MarkerOptions().position(sydney5).title("鷹流東京豚骨拉麵"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney5));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, 16F));
     }
 }

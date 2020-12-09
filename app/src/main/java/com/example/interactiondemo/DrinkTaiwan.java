@@ -50,6 +50,12 @@ public class DrinkTaiwan extends FragmentActivity implements OnMapReadyCallback 
         LatLng sydney2 = new LatLng(25.01346117094188, 121.5347400969072);//25.01346117094188, 121.5347400969072
         mMap.addMarker(new MarkerOptions().position(sydney2).title("可不可熟成紅茶 公館店"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney2));
+        LatLng sydney3 = new LatLng(25.013068659024277, 121.53584207535899);//25.013068659024277, 121.53584207535899
+        mMap.addMarker(new MarkerOptions().position(sydney3).title("迷客夏 公館店"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney3));
+        LatLng sydney4 = new LatLng(25.012936892663664, 121.53596899829418);//25.012936892663664, 121.53596899829418
+        mMap.addMarker(new MarkerOptions().position(sydney4).title("春芳號 公館店"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney4));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, 16F));
 
     }

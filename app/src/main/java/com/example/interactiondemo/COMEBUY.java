@@ -45,6 +45,15 @@ public class COMEBUY extends FragmentActivity implements OnMapReadyCallback {
         LatLng sydney = new LatLng(25.044426873762887, 121.53315869979498); //25.044426873762887, 121.53315869979498
         mMap.addMarker(new MarkerOptions().position(sydney).title("COMEBUY台科店"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        LatLng sydney2 = new LatLng(25.044235576291722, 121.53287314570865); //25.044235576291722, 121.53287314570865
+        mMap.addMarker(new MarkerOptions().position(sydney2).title("日出茶太 光華店"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney2));
+        LatLng sydney3 = new LatLng(25.04383275394126, 121.53225067104552); //25.04383275394126, 121.53225067104552
+        mMap.addMarker(new MarkerOptions().position(sydney3).title("春芳號 忠孝新生店"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney3));
+        LatLng sydney4 = new LatLng(25.043768302242395, 121.53130806655568); //25.043768302242395, 121.53130806655568
+        mMap.addMarker(new MarkerOptions().position(sydney4).title("茶湯會 光華店"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney4));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, 16F));
     }
 }
