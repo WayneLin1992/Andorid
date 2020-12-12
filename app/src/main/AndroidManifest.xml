@@ -32,7 +32,7 @@
 
         <activity
             android:name=".RestTaipei"
-            android:label="@string/title_activity_rest_taipei"></activity>
+            android:label="@string/title_activity_rest_taipei" />
         <activity
             android:name=".DrinkTaiwan"
             android:label="@string/title_activity_drink_taiwan" />

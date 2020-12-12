@@ -35,6 +35,7 @@ public class Page2<lng> extends AppCompatActivity {
         intent.setClass(Page2.this, TaiwanDrink.class);
         startActivity(intent);
     }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
